@@ -17,6 +17,11 @@ public class Main {
             ink = new Random().nextInt(20) !=8;
         } System.out.println("ink cycle exit");
 
+        boolean link = true;
+        while (link) {
+            System.out.println("Wow");
+            link = new Random().nextInt(20) !=8;
+        } System.out.println("Link cycle exit");
 
     }
 }
